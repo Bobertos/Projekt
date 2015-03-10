@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <a href="/~s177015/app_dev.php/zaloguj"> Zaloguj </a><br/>
+        <a href="/~s177015/app_dev.php/koszyk/{{ idUzytkownika }}"> Koszyk </a><br/><br/><br/>
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+    <footer class="row">
+        (c) Copyright Agnieszka Sobczyk, Adam Bronowicki, Krzysztof Barszczewski, Robert Szpila
+    </footer>
+</html>

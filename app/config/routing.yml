@@ -1,0 +1,12 @@
+aakr_store:
+    resource: "@AAKRStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+#grupa_projekt:
+#    resource: "@BronowickiSampleBundle/Resources/config/routing.yml"
+#    prefix:   /
+
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
